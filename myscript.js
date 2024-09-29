@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz di Domande</title>
-</head>
-<body>
-    <h1>Benvenuto al Quiz!</h1>
-    <script>
-        let firstName = "";
+let firstName = "";
         while (!firstName) {
             firstName = prompt("Qual è il tuo nome?");
             if (firstName === null) {
@@ -51,8 +41,5 @@
         
         let percentualeCorrette = (risposteCorrette / domande.length) * 100;
 
-        // Mostriamo il risultato all'utente
+        
         console.log(Hai risposto correttamente al ${percentualeCorrette}% delle domande.);
-    </script>
-</body>
-</html>
